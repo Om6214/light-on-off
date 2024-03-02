@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <link rel="stylesheet" href="bulb.css">
+    <script src="bulb.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <h1 id="heading">Can you turn on the light</h1>
+        <div class="img">
+            <img src="images/off.png" alt="" id="bulb">
+        </div>
+        <div class="buttons">
+            <button onclick="document.getElementById('bulb').src='images/on.png' " class="button-50" role="button" id="buttonon">Turn on light</button>
+            <button onclick="document.getElementById('bulb').src='images/off.png' " class="button-50" role="button" id="buttonoff">Turn of light</button>
+        </div>
+    </div>
+</body>
+</html>
